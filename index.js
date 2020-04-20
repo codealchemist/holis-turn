@@ -18,7 +18,7 @@ server.start()
 console.log(new Date().toString())
 console.log('Holis TURN server started!')
 console.log(`
-  USER: ${user}
-  PASS: ${pass}
+  USER: ${USER}
+  PASS: ${PASS}
 `)
 console.log('-'.repeat(80))
