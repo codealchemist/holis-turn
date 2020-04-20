@@ -10,7 +10,8 @@ const server = new Turn({
   credentials: {
     [USER]: PASS
   },
-  listeningPort: PORT
+  listeningPort: PORT,
+  listeningIps: 'localhost'
 })
 
 server.start()
