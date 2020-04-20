@@ -1,0 +1,18 @@
+{
+  "name": "holis-turn",
+  "version": "1.0.0",
+  "description": "TURN server for Holis.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "turn",
+    "node"
+  ],
+  "author": "Alberto Miranda",
+  "license": "MIT",
+  "dependencies": {
+    "node-turn": "0.0.4"
+  }
+}
