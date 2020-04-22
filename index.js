@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const Turn = require('node-turn')
 
 const PORT = process.env.PORT || 3478
