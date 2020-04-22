@@ -9,9 +9,7 @@ const server = new Turn({
   authMech: 'long-term',
   credentials: {
     [USER]: PASS
-  },
-  listeningPort: PORT,
-  listeningIps: ['127.0.0.0']
+  }
 })
 
 server.start()
@@ -20,5 +18,6 @@ console.log('Holis TURN server started!')
 console.log(`
   USER: ${USER}
   PASS: ${PASS}
+  PORT: ${PORT}
 `)
 console.log('-'.repeat(80))
